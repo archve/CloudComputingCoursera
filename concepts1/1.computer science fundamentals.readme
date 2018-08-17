@@ -1,0 +1,37 @@
+Basic Computer Science Fundamentals:
+
+Basic data structure - Queue, FIFO datastructure, remove from head insert at tail.
+                     - Stack,LIFO,push and pop from top
+
+Process - A program in execution. components - code, program counter,stack,heap and registers.
+snapshot of a process - include everything in the components at that moment.
+
+Computer architecture: CPU,Registers,Cache,Memory,Disk.
+CPU executes accesses and executes instruction in the memory.
+
+Compiler complies to low level instructions-native to architecure or for VM jvm kind of code.
+These instrucitons are saved in the filesystem and are the executable version of a program.
+When the program is executing i.e when it becomes a process CPU loads instructions in batches or 
+one by one into memory,caches an register.Cache and registers contain last few access , follow LRU.
+For each instruction,CPU loads required data into the memory and cache and registers, any updates are 
+first made in cache and then memory. Memory can be flushed to disk once in a while
+
+Big O notation: Upper bound behaviour of algorithm with scale of input N, worst case performance,usually analysis run-time.
+Examples of O(N):searching a unsorted array
+            O(N^2):Insertion sort
+
+Basic Probability: Set -> collection of things
+                   Subset -> collection of things that is part of a larger set.
+                   
+                   Any event has probability of happening.
+ Mulitplying probabilities: P(E1 and E2) = P(E1)*P(E2)  -> if E1 and E2 are independent events.
+                            P(E1 or E2) = P(E1)+P(E2)-P(E1 and E2)
+
+DNS:Name resolution system,Collection of servers thoroughput the world.Domain name unniquely idetifies an dobject
+domain name extracted from url,browser extracts this and sends to dns server. IP is ID not human readable.
+IP may refer to web server hsoting a content or indirect server-CDN.
+
+Graphs: Node or vertex,edge,edge weight, A is adjacent to B.
+
+
+
